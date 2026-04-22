@@ -166,24 +166,6 @@ Set `LOG_LEVEL=DEBUG` for verbose output during development.
 - Use a dedicated Telegram bot for production
 - Consider rate limiting for multi-user deployments
 
-## Development
-
-Install development dependencies:
-```bash
-pip install black flake8 mypy pytest
-```
-
-Code style:
-```bash
-black .
-flake8 .
-```
-
-Type checking:
-```bash
-mypy .
-```
-
 ## License
 
 MIT License. See LICENSE file for details.
